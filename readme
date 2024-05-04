@@ -1,0 +1,14 @@
+Ce programme en C est une application de gestion de location de voitures avec différentes fonctionnalités telles que l'ajout, la modification, la suppression, l'affichage et la recherche de voitures. Voici une description détaillée de chaque fonctionnalité :
+1:Structure de données : Le programme utilise une structure de données Voiture pour stocker les informations sur chaque voiture, y compris l'identifiant, la marque, le modèle, le type de carburant, le nombre de places, la transmission, le prix de location par jour et la disponibilité.
+2:Ajouter une voiture (ajouter_voiture) : Cette fonction permet à l'utilisateur d'entrer les informations d'une nouvelle voiture, telles que la marque, le modèle, etc. Elle vérifie également la disponibilité de la voiture et l'ajoute à la liste des voitures.
+3:Modifier une voiture (modifier_voiture) : L'utilisateur peut sélectionner une voiture par son ID et modifier ses informations, telles que la marque, le modèle, etc. Si aucune voiture n'est trouvée avec l'ID spécifié, un message d'erreur est affiché.
+4:Supprimer une voiture (supprimer_voiture) : Cette fonction permet à l'utilisateur de supprimer une voiture de la liste en spécifiant son ID. Si aucune voiture n'est trouvée avec l'ID spécifié, un message d'erreur est affiché.
+5:Afficher les voitures disponibles (afficher_voitures_disponibles) : Affiche la liste des voitures disponibles avec leurs informations telles que l'ID, la marque, le modèle, etc.
+6:Rechercher des voitures par marque (rechercher_par_marque) : Permet à l'utilisateur de rechercher des voitures en spécifiant une marque. Affiche ensuite la liste des voitures correspondantes.
+7:Rechercher des voitures par disponibilité (rechercher_par_disponibilite) : Permet à l'utilisateur de rechercher des voitures en fonction de leur disponibilité (disponible ou non disponible). Affiche ensuite la liste des voitures correspondantes.
+8:Trier les voitures par marque (trier_par_marque) : Trie la liste des voitures par ordre alphabétique de leur marque.
+9:Trier les voitures par prix de location par jour (trier_par_prix_location) : Trie la liste des voitures par ordre croissant de leur prix de location par jour.
+10:Menu principal (afficher_menu_principal) : Affiche le menu principal avec les différentes options disponibles pour l'utilisateur.
+Le programme utilise une boucle do-while pour permettre à l'utilisateur d'interagir avec le menu principal tant qu'il ne choisit pas de quitter l'application.
+
+À la fin de l'exécution, le programme affiche un message de remerciement et quitte l'application.
